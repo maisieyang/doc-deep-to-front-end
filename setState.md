@@ -55,9 +55,11 @@ handleIncrement = () => {
   });
 };
 ```
+7. 使用 hooks:
 
+在函数组件中，你可以使用 useState 钩子来管理状态。它为状态提供了一个更简洁的 API，并与 setState 在类组件中的行为类似。
 
-7. 面试题目
+8. 面试题目
 
 ```js
 import React, { Component } from 'react';
@@ -113,3 +115,4 @@ export default class App extends Component {
 
 
 ```
+
